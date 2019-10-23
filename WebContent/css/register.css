@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/* font-family: "Microsoft YaHei"; */
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	background: #F0F0F0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* 页面头部 */
+.register_top {
+	width: 92%;
+	height: 80px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.register_top label {
+	font-size: 25px;
+	line-height: 80px;
+}
+
+.register_top span {
+	color: #848484;
+	font-size: 16px;
+	line-height: 80px;
+	position: absolute;
+	right: 0;
+}
+
+.register_top a {
+	color: #0000FF;
+}
+
+.register_panel {
+	width: 92%;
+	border-radius: 5px;
+	border: 2px solid #C4C4C4;
+	margin: 0 auto;
+}
+
+.register_topPanel {
+	width: 100%;
+	height: 40px;
+	color: #FFFFFF;
+	line-height: 40px;
+	background: #38A0FF;
+	top: 0;
+}
+
+.register_mainPanel {
+	width: 100%;
+}
+
+.register_leftPanel {
+	width: 64%;
+	display: inline-block;
+	background: #FFFFFF;
+	box-shadow: 2px 0px 2px #C4C4C4;
+}
+
+.register_form {
+	width: 60%;
+	display: block;
+	margin: 50px auto;
+}
+
+.register_formInput {
+	width: 100%;
+	height: 40px;
+	display: -webkit-box;
+}
+
+.register_formInput label {
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	display: inline-block;
+	text-align-last: justify;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	margin-right: 40px;
+}
+
+.register_textInput {
+	height: 40px;
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	border: 1px solid #CED4DA;
+	border-radius: 5px;
+	padding: 8px;
+	position: relative;
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+}
+
+.register_formTip {
+	width: 100%;
+	height: 40px;
+	color: #A8A8A8;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.register_select {
+	height: 40px;
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 8px;
+}
+
+.register_btn {
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: #38A0FF;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	border: none;
+	border-radius: 30px;
+	margin-top: 10px;
+}
+
+.register_rightPanel {
+	width: 36%;
+	height: 550px;
+	float: right;
+	background: url(../img/bg_rightRegister.png) no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.register_bottom {
+	width: 92%;
+	height: 50px;
+	color: #848484;
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}

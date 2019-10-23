@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/* font-family: "Microsoft YaHei"; */
+}
+
+a {
+	text-decoration: none;
+}
+
+div{
+	display: block;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	background: url(../img/bg_login.png) center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* 标题 */
+.logo_title{
+	width: 495px;
+	height: 60px;
+	display: block;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+	position: absolute;
+	top: 140px;
+	left: 40%;
+}
+
+/* 登录表单 */
+.login_panel{
+	width: 495px;
+	height: 330px;
+	display: block;
+	background: url(../img/bg_loginPanel.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 200px;
+	left: 40%;
+}
+
+.form_panel{
+	width: 420px;
+	height: 240px;
+	margin: 45px auto;
+}
+
+.login_title{
+	width: 100%;
+	display: block;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.text_panel{
+	width: 90%;
+	height: 30px;
+	display: -webkit-box;
+	margin: 10px auto;
+}
+.text_label{
+	width: 20%;
+	font-size: 16px;
+	line-height: 30px;
+}
+.text_input{
+	width: 1%;
+	display: block;
+	background-color: #FFFFFF;
+	background-clip: padding-box;
+	color: #495057;
+	font-size: 16px;
+	line-height: 24px;
+	border: 1px solid #CED4DA;
+	border-radius: 4px;
+	position: relative;
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+	margin-bottom: 0;
+	padding: 2px 12px;
+}
+.text_btn{
+	width: 90%;
+	height: 40px;
+	display: block;
+	background: #AFD6FA;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	border: none;
+	border-radius: 4px;
+	margin: 20px auto;
+}
+.login_link{
+	width: 90%;
+	height: 30px;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: right;
+	margin: 0 auto;
+}
